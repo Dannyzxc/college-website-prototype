@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is the discrion">
+    <title>Eduford</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/GameLogo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html" >  HOME    </a></li>
+                    <li><a href="blog.html">    BLOG    </a></li>
+                    <li><a href="about.html">   ABOUT   </a></li>
+                    <li><a href="course.html">  COURSE  </a></li>
+                    <li><a href="contact.html"> CONTACT </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+
+ <!--------course----------->
+
+        <section class="course">
+            <h1>Courses We Offer </h1>
+            <p>learn about our courses </p>
+           
+    
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Learn intermediate courses. which will be only basic knowlege. 
+                    which will help you to degree.</p>
+                </div>
+    
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Learn degree courses. which will little advance knowlege. 
+                        which will help you to post raduation..</p>
+                </div>
+    
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Learn Post graduation courses. which will be complete advance knowlege. 
+                        which will help you to get jobs.</p>
+                </div>
+    
+    
+            </div>
+        </section>
+
+<!-----------facilitis------------------>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Check-out our Facilities</p>
+        <div class="row">
+                <div class="facilities-col">
+                    <img src="img/lib.jpg">
+                        <h3>World Class Library</h3>
+                        <p>Check-out our Library</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="img/games.jpg">
+                        <h3>Playground</h3>
+                        <p>Check-out our Playground</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="img/canteen.jpg">
+                        <h3>Healthy Canteen</h3>
+                        <p>Check-out our Canteen</p>
+                </div>
+        </div>
+    </section>
+
+
+    
+
+   
+
+
+<!--------footer---------->
+
+        <section class="footer">
+            <h4> ABOUT US </h4>
+            <P>this is a copyright section.<br>
+                eveything cover under terms and condition.
+                </P>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+                 <p> MADE BY <i class ="fa fa-heart-o" ></i>DNYANESHWAR </p>
+
+        </section>
+
+
+    <!------ javascript for Toggle menu ---->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+</html>
